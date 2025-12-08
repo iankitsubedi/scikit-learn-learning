@@ -19,6 +19,5 @@ plt.figure(figsize=(12,5))
 plt.subplot(1,2,2)
 sns.distplot(dataset["ApplicantIncome"])
 
-
 plt.subplot(1,2,1)
 sns.distplot(dataset["ApplicantIncome_ss"])
